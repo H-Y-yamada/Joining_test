@@ -1,0 +1,167 @@
+body {
+	width: 100%;
+}
+
+#header  {  
+	width: 100%;
+	padding: 20px;
+	background-color: #000000;
+	border-bottom: 1px solid #CCC;  
+	color: #FFF;
+	position: fixed;  
+	top:0;
+	left:0;  
+}
+
+	#header h1{
+		font-size: 24px;
+		color: #FFFFFF;
+		display:inline;
+	}
+
+	#header h2{
+		font-size: 18px;
+		color: #FFFFFF;
+		display:inline;
+	}
+	
+	
+div#headbt {
+	float: right; 
+	margin:15px;
+}
+.contents{
+	padding: 90px 0 20px;
+}
+
+.question {
+	display:block;
+	border:1px solid #ccc;
+	margin:5px;
+	padding:20px;
+}
+
+.answer {
+	display:block;
+	border:1px solid #ccc;
+	margin:5px;
+	padding:10px;
+	background-color: #EEEEEE;
+}
+
+
+p.caption{
+	font-weight: bold;
+	color: #FF0000;
+}
+
+label {
+	cursor: pointer;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+td {
+	text-align: center;
+	background-color: #FFFFFF;
+	height: 50px;
+}
+
+table.gijutsu td {
+	text-align: left;
+	background-color: #EEEEEE;
+	height: 30px;
+}
+
+input#radio_bt{
+	height: 30px;
+	vertical-align:middle;
+}
+
+input#next_bt{
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #CCCCCC;
+	border: 1px solid #666666;
+	color: #000000;
+	font-size: 30px;
+	line-height: 1;
+	border-radius: 10px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+input#end_bt{
+	display: inline-block;
+	padding: 0;
+	background: #DDDDDD;
+	border: 1px solid #666666;
+	color: #000000;
+	font-size: 20px;
+	line-height: 1;
+	border-radius: 10px 0 10px 0;
+	text-shadow: 0px 2px 2px #ffffff;
+}
+
+div.radio-group input {
+ 	display: none;
+}
+
+div.radio-group label {
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 30px 0px;
+	float: left;
+	border: solid 1px #aaa;
+	background: #eee;
+}
+
+div.radio-group input:checked+label {
+	color: #fff;
+	background: #C3C3C3;
+}
+
+.center {
+	text-align: center;
+}
+
+.toi {
+	text-align: left;
+}
+
+
+.menutb{
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+.menutb td{
+	
+	padding-right:50px;
+	height:200px;
+	text-align: left;
+	
+}
+.menubt{
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #CCCCCC;
+	border: 1px solid #666666;
+	color: #000000;
+	font-size: 30px;
+	line-height: 1;
+	border-radius: 10px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+.menubt_pass{
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: #CCCCCC;
+	border: 1px solid #666666;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 1;
+	border-radius: 10px;
+	
+}
